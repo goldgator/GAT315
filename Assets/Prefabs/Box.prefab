@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 272438595115308964}
   - component: {fileID: 7264262478347831374}
   - component: {fileID: 4453982333016510527}
-  - component: {fileID: 4635942098425949385}
+  - component: {fileID: -1633664370783181920}
   m_Layer: 0
-  m_Name: Circle
+  m_Name: Box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -73,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 6858f5f05bf001d4ba12ed1917c947d7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 586f268e70b72fb46a6b04ac9c04b217, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -96,8 +96,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79527412be8313b4e9cd23f950c78b8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shape: {fileID: 4635942098425949385}
---- !u!114 &4635942098425949385
+  shape: {fileID: -1633664370783181920}
+--- !u!114 &-1633664370783181920
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -106,6 +106,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 7385563279201794306}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7eaa7dccfbf052a4896c8d731b976dd8, type: 3}
+  m_Script: {fileID: 11500000, guid: 130f12d19cc52ca418a566aad4f33f73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
